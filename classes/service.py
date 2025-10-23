@@ -4,11 +4,11 @@ import hashlib
 
 class AuthenticationService():
     
-    session =  []
+    # session =  []
     current_user: User
     
     def __init__(self):        
-        pass
+         session =  []
 
     def register(self, username: str, email: str, password: str, *args):
         
