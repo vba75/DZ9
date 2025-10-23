@@ -8,7 +8,7 @@ class AuthenticationService():
     current_user: User
     
     def __init__(self):        
-         session =  []
+         self.session =  []
 
     def register(self, username: str, email: str, password: str, *args):
         
